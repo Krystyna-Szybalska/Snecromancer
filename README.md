@@ -1,2 +1,2 @@
 # Snecromancer
-Classic snake game created using C# and WPF
+Classic snake game created using C# and WPF (in progress)
