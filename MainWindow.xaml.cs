@@ -35,10 +35,6 @@ namespace Snake
         private System.Windows.Threading.DispatcherTimer gameTickTimer = new System.Windows.Threading.DispatcherTimer();
         private Random rnd = new Random();
 
-        private void GameTickTimer_Tick(object sender, EventArgs e)
-        {
-            MoveSnake();
-        }
         public MainWindow()
         {
             InitializeComponent();
@@ -61,6 +57,10 @@ namespace Snake
                     this.Top += vector.Y;
                 }
             };
+        }
+        private void GameTickTimer_Tick(object sender, EventArgs e)
+        {
+            MoveSnake();
         }
         private void Window_ContentRendered(object sender, EventArgs e)
         {
@@ -104,7 +104,7 @@ namespace Snake
         }
         private void StartNewGame()
         {
-            bdrWelcomeMessage.Visibility = Visibility.Collapsed;
+            //bdrWelcomeMessage.Visibility = Visibility.Collapsed;
             bdrHighscoreList.Visibility = Visibility.Collapsed;
             bdrEndOfGame.Visibility = Visibility.Collapsed;
 

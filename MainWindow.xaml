@@ -51,11 +51,13 @@
                 <Grid Width="{Binding ActualWidth, ElementName=GameArea}"  Height="{Binding ActualHeight, ElementName=GameArea}">
                     <Image x:Name="snakeImage" Width="700" Canvas.Top="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </Grid>
-                
-                <Border BorderBrush="Silver" BorderThickness="2" Width="300" Height="300" Canvas.Left="200" Canvas.Top="200" Name="bdrWelcomeMessage" Panel.ZIndex="1">
+                <Border BorderBrush="Silver" BorderThickness="2" Width="400" Height="400" Canvas.Left="100" Canvas.Top="100" Name="bdrWelcomeMessage" Panel.ZIndex="1">
                     <StackPanel Orientation="Vertical" Background="AliceBlue">
                         <TextBlock FontWeight="Bold" FontSize="50" HorizontalAlignment="Center" Margin="0,20,0,0">SnakeWPF</TextBlock>
-                        <TextBlock TextWrapping="Wrap" Margin="20" FontSize="16">Use the Arrow keys to control the green snake. Make it eat the red apples, but be sure not to crash into the walls or the tail of the snake!</TextBlock>
+                        <TextBlock TextWrapping="Wrap" Margin="20" FontSize="16"> A vile Sneckromancer captured the soul of an innocent Snake and keeps it locked away in his magical two-dimensional prision.
+                            The Snake's soul is weak and unable to escape in its present form. If it touches the walls of his prison, it will be gone forever.
+                            However, some of the Sneckromancer's power is seeping through the walls! If Snake's soul collects enough of it, he will be able to break through!
+                            Use the Arrow keys to control him and help him escape!</TextBlock>
                         <TextBlock FontWeight="Bold" HorizontalAlignment="Center" FontSize="24" Foreground="Maroon">Press SPACE to start!</TextBlock>
                         <Button Margin="20" Name="btnShowHighscoreList" Click="BtnShowHighscoreList_Click" HorizontalAlignment="Center" Padding="10,3">Show High Score List...</Button>
                     </StackPanel>
