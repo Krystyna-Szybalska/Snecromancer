@@ -104,9 +104,9 @@ namespace Snake
         }
         private void StartNewGame()
         {
-            //bdrWelcomeMessage.Visibility = Visibility.Collapsed;
             bdrHighscoreList.Visibility = Visibility.Collapsed;
             bdrEndOfGame.Visibility = Visibility.Collapsed;
+            bdrWelcomeMessage.Visibility = Visibility.Collapsed;
 
             // Remove potential dead snake parts and leftover food...
             foreach (SnakePart snakeBodyPart in snakeParts)

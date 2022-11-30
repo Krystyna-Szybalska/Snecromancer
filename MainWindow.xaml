@@ -53,7 +53,7 @@
                 </Grid>
                 <Border BorderBrush="Silver" BorderThickness="2" Width="400" Height="400" Canvas.Left="100" Canvas.Top="100" Name="bdrWelcomeMessage" Panel.ZIndex="1">
                     <StackPanel Orientation="Vertical" Background="AliceBlue">
-                        <TextBlock FontWeight="Bold" FontSize="50" HorizontalAlignment="Center" Margin="0,20,0,0">SnakeWPF</TextBlock>
+                        <TextBlock FontWeight="Bold" FontSize="50" HorizontalAlignment="Center" Margin="0,20,0,0">Snecromancer</TextBlock>
                         <TextBlock TextWrapping="Wrap" Margin="20" FontSize="16"> A vile Sneckromancer captured the soul of an innocent Snake and keeps it locked away in his magical two-dimensional prision.
                             The Snake's soul is weak and unable to escape in its present form. If it touches the walls of his prison, it will be gone forever.
                             However, some of the Sneckromancer's power is seeping through the walls! If Snake's soul collects enough of it, he will be able to break through!
